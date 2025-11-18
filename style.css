@@ -1,0 +1,10 @@
+a{
+    font-size: 20px
+}
+body{
+    background-image: url("img/BACK.webp");
+}
+img{
+    width: 250px;
+    height: 300px;
+}

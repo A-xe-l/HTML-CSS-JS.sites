@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+.grid_con{
+    
+    display:grid;
+    grid-template-areas:
+    "header header header"
+    "menu paper information"
+    "footer footer footer";
+    grid-gap: 10px;
+}
+.header{
+    grid-area: header;
+}
+.menu{
+    grid-area: menu;
+}
+.paper{
+    grid-area: paper;
+}
+.information{
+    grid-area: information;
+}
+.footer{
+    grid-area: footer;
+}
+.grid_con{
+    background-color: aqua;
+    font-size: 20px;
+    padding: 10px;
+    align-items: center;
+}
+    </style>
+</head>
+<body>
+    <div class="grid_con">
+    <div class="header">Торрент-Бокс</div>
+    <div class="menu"> Меню </div>
+    <div class="paper">Список</div>
+    <div class="information">О нас</div>
+    <div class="footer">Официальный сайт</div>
+    </div>
+</body>
+</html>

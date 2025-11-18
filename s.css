@@ -1,0 +1,53 @@
+body{
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    font-size: larger;
+    text-align: center;
+}
+.img2{
+    float: right;
+    border-radius: 30px;
+    border: 3px solid aquamarine;
+    height: 310px;
+}
+.img1{
+    border-radius: 30px;
+    border: 3px solid aquamarine;
+
+}
+.menu{
+    list-style: none;
+    background-color: darkcyan;
+    color: blanchedalmond;
+    display: flex;
+    text-align: center;
+    justify-content: center;
+}
+.menu a{
+    color: blanchedalmond;
+    padding: 20px;
+    text-align: center;
+    display: block;
+    justify-content: center;
+
+}
+.p1{
+    background-color: darkcyan;
+    color: blanchedalmond;
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    font-size: large;
+    padding: 28px;
+}
+form{
+    display: flex;
+}
+input[type='text']{
+    border: 3px solid darkcyan;
+    padding: 10px;
+    border-radius: 3px;
+    flex: 1;
+}
+button{
+    padding: 10px;
+    border: 2px solid darkcyan;
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+}
